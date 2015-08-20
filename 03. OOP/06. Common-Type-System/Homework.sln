@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.StudentClass", "01.StudentClass\01.StudentClass.csproj", "{DED66369-7AA0-4B04-8E68-4769491E0D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.PersonClass", "04.PersonClass\04.PersonClass.csproj", "{DFACC80A-6726-4783-9B80-E4525D113D84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED66369-7AA0-4B04-8E68-4769491E0D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED66369-7AA0-4B04-8E68-4769491E0D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED66369-7AA0-4B04-8E68-4769491E0D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED66369-7AA0-4B04-8E68-4769491E0D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFACC80A-6726-4783-9B80-E4525D113D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFACC80A-6726-4783-9B80-E4525D113D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFACC80A-6726-4783-9B80-E4525D113D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFACC80A-6726-4783-9B80-E4525D113D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

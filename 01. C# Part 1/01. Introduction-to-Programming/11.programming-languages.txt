@@ -1,0 +1,6 @@
+According to a Google research some of the most popular programing languages are:
+1)	C++ - one of the most widely used languages of the world. Many famous software were developed using C++ - Google Chrome, Mozilla Firefox, Windows OS;
+2)	Java – it is mostly used to develop video games. It is similar to the C++ language, so it is easy to switch;
+3)	PHP – it is used to develop dynamic websites. There are thousands of already built modules, in PHP, that can be modified to achieve the desired functionality;
+
+C# is directly related to C and C++. C# inherits most of its operators, keywords, and statements directly from C++. Constructions of the both languages are very similar.

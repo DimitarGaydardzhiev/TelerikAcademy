@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.ILS.Common.StringExtensions">
+            <summary>
+            Extensions to convert a given input to string value. Static class.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Converts a string byte by bute to its hexadecimal representation.
+            </summary>
+            <param name="input">The string value to convert</param>
+            <returns>The hexadecimal string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Checks if a givven string has a truly value.
+            </summary>
+            <remarks>
+            Tryly values: "true", "ok", "yes", "1", "да".
+            </remarks>
+            <param name="input">The given string</param>
+            <returns>True or false</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)" -->
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Capitalize the first letter of a given string
+            </summary>
+            <param name="input">The given string</param>
+            <returns>The string with capitalized first letter</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Extracts a substring by given string values.
+            </summary>
+            <param name="input">The given string.</param>
+            <param name="startString">The string to start from.</param>
+            <param name="endString">The string to end.</param>
+            <param name="startFrom">Starting index (the input will be cut before this value). Initially = 0.</param>
+            <returns>The extracted substiring.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)" -->
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Convert an input string as a valid username from Cyrillic to Latin, and repllaces all invalid sybols with empty string.
+            </summary>
+            <param name="input">The givven string</param>
+            <returns>The input converted to its latin representation, without any invalid sybmols.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Convert an input string as a valid filename from Cyrillic to Latin, and repllaces all invalid sybols with empty string, and spacfes with a dash "-".
+            </summary>
+            <param name="input">The givven string</param>
+            <returns>The input converted to its latin representation, without any invalid sybmols.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Extracts first N characters from a givven string.
+            </summary>
+            <param name="input">The given string</param>
+            <param name="charsCount">The number of characters to extract</param>
+            <returns>Extracted characters begining from start to N. If N is more than the length of the input, the method retuns the all input.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Extracts the extension from a given file.
+            </summary>
+            <param name="fileName">The filname, with its extension as a string.</param>
+            <returns>The extension of the input.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Get the content type of a file.
+            </summary>
+            <param name="fileExtension">The file extension, as a string.</param>
+            <returns>The content type. If unknown - returns: "application/octet-stream".</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Converts a string to a byte array.
+            </summary>
+            <param name="input">The given string to be converted.</param>
+            <returns>The input as a byte array.</returns>
+        </member>
+    </members>
+</doc>

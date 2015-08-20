@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.QualityMethods", "01.QualityMethods\01.QualityMethods.csproj", "{FE42E0F2-A054-421D-A94F-C991DC4B7A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MathProblem", "02.MathProblem\02.MathProblem.csproj", "{CCE24611-0F9D-4325-99FE-2292B953472A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SumOfDifferences", "03.SumOfDifferences\03.SumOfDifferences.csproj", "{539E4D4B-2B13-4495-845B-CF07750B2796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE42E0F2-A054-421D-A94F-C991DC4B7A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE42E0F2-A054-421D-A94F-C991DC4B7A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE42E0F2-A054-421D-A94F-C991DC4B7A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE42E0F2-A054-421D-A94F-C991DC4B7A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE24611-0F9D-4325-99FE-2292B953472A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE24611-0F9D-4325-99FE-2292B953472A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE24611-0F9D-4325-99FE-2292B953472A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE24611-0F9D-4325-99FE-2292B953472A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539E4D4B-2B13-4495-845B-CF07750B2796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539E4D4B-2B13-4495-845B-CF07750B2796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539E4D4B-2B13-4495-845B-CF07750B2796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539E4D4B-2B13-4495-845B-CF07750B2796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

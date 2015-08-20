@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link href="css.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="windows">
+            <img src="calculator.png" alt="Alternate Text" />
+            <span>Calculator</span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="inline">
+                <li><span class="underlined">V</span>iew</li>
+                <li><span class="underlined">E</span>dit</li>
+                <li><span class="underlined">H</span>elp</li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <input class="text" type="text" value="8854455" />
+
+            <div class="nums">
+                <ul>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>63</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>47</li>
+                    <li></li>
+                    <li></li>
+                    <li>32</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>0000</li>
+                    <li>31</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>15</li>
+                    <li></li>
+                    <li></li>
+                    <li>0</li>
+                </ul>
+            </div>
+            <div class="options">
+                <div class="NumeralSys">
+                    <ul class="nostyle">
+                        <li>
+                            <label>
+                                <input type="radio" name="numeralSystem" value="Hex" />
+                                Hex
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="numeralSystem" value="Dec" checked="checked" />
+                                Dec
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="numeralSystem" value="Oct" />
+                                Oct
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="numeralSystem" value="Bin" />
+                                Bin
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Word">
+                    <ul class="nostyle">
+                        <li>
+                            <label>
+                                <input type="radio" name="Word" value="Qword" checked="checked" />
+                                Qword
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="Word" value="Dword" />
+                                Dword
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="Word" value="Word" />
+                                Word
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="Word" value="Byte" />
+                                Byte
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="numbers">
+                <input class="inactive" type="button" value="" disabled="disabled"/>
+                <input class="sign" type="button" value="Mod" />
+                <input class="inactive" type="button" value="A" disabled="disabled" />
+                <input class="inactive" type="button" value="MC" />
+                <input class="inactive" type="button" value="MR" />
+                <input class="inactive" type="button" value="MS" />
+                <input class="inactive" type="button" value="M+" />
+                <input class="inactive" type="button" value="M-" />
+                <input class="sign" type="button" value="(" />
+                <input class="sign" type="button" value=")" />
+                <input class="inactive" type="button" value="B" disabled="disabled" />
+                <input class="sign" type="button" value="&#8656" />
+                <input class="sign" type="button" value="CE" />
+                <input class="sign" type="button" value="C" />
+                <input class="sign" type="button" value="+-" />
+                <input class="inactive" type="button" value="&radic;" />
+                <input class="sign" type="button" value="RoL" />
+                <input class="sign" type="button" value="RoR" />
+                <input class="inactive" type="button" value="C" disabled="disabled" />
+                <input class="number" type="button" value="7" />
+                <input class="number" type="button" value="8" />
+                <input class="number" type="button" value="9" />
+                <input class="sign" type="button" value="/" />
+                <input class="inactive" type="button" value="%" />
+                <input class="sign" type="button" value="Or" />
+                <input class="sign" type="button" value="Xor" />
+                <input class="inactive" type="button" value="D" disabled="disabled" />
+                <input class="number" type="button" value="4" />
+                <input class="number" type="button" value="5" />
+                <input class="number" type="button" value="6" />
+                <input class="sign" type="button" value="*" />
+                <input class="inactive" type="button" value="1/x" />
+                <input class="sign" type="button" value="Lsh" />
+                <input class="sign" type="button" value="Rsh" />
+                <input class="inactive" type="button" value="E" disabled="disabled" />
+                <input class="number" type="button" value="1" />
+                <input class="number" type="button" value="2" />
+                <input class="number" type="button" value="3" />
+                <input class="sign" type="button" value="-" />
+                <input class="sign" type="button" id="equal" value="=" />
+                <input class="sign" type="button" value="Not" />
+                <input class="sign" type="button" value="And" />
+                <input class="inactive" type="button" value="F" disabled="disabled" />
+                <input class="number" type="button" id="zero" value="0" />
+                <input class="inactive" type="button" value="." />
+                <input class="sign" type="button" value="+" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

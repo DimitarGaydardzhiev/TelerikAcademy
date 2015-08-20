@@ -1,0 +1,25 @@
+The strings in C# are sequence of 0 or more unicode characters. The string data type is reference data type. The equality operators (== and !=) are defined to compare the values of string objects, not references. The most important methods in string class are:
+
+1) Compare - Compares two specified String objects and returns an integer that indicates their relative position in the sort order;
+
+2) Insert - Returns a new string in which a specified string is inserted at a specified index position in this instance;
+
+3) Join - Concatenates the elements of an object array, using the specified separator between each element;
+
+4) Remove - Returns a new string in which all the characters in the current instance, beginning at a specified position and continuing through the last position, have been deleted;
+
+5) Replace - Returns a new string in which all occurrences of a specified Unicode character in this instance are replaced with another specified Unicode character;
+
+6) Split - Returns a string array that contains the substrings in this instance that are delimited by elements of a specified Unicode character array;
+
+7) Substring - Retrieves a substring from this instance. The substring starts at a specified character position and continues to the end of the string;
+
+8) ToLower - Returns a copy of this string converted to lowercase;
+
+9) ToUpper - Returns a copy of this string converted to uppercase;
+
+10) Trim - Removes all leading and trailing white-space characters from the current String object;
+
+11) TrimEnd - Removes all trailing occurrences of a set of characters specified in an array from the current String object;
+
+12) TrimStart - Removes all leading occurrences of a set of characters specified in an array from the current String object;

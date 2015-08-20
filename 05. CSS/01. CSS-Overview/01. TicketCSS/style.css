@@ -1,0 +1,48 @@
+﻿body {
+    font-size:14px;
+    color:#bbbbbb;
+}
+table, td, th{
+    text-align:left;
+    background-color:#595959;
+}
+
+td{
+    padding:0.2em;
+    vertical-align:top;
+}
+
+.definition{
+    font-style:italic;
+    vertical-align:top;
+}
+
+.header{
+    text-align:left;
+    font-size:large;
+}
+
+.purpleText{
+    color:purple
+}
+
+.yellowText{
+    color:yellow;
+}
+
+.redText{
+    vertical-align:top;
+    margin:1px;
+    color:red
+}
+
+.orangeText{
+    color:orange
+}
+
+#name:before{
+    content:"•";
+    font-size:40px;
+    color:green;
+    vertical-align:middle;
+}

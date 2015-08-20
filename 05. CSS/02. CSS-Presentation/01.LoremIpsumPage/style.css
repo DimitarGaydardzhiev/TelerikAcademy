@@ -1,0 +1,21 @@
+﻿body {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-size:14px;
+    line-height:20px;
+    font-family:Consolas;
+}
+
+.random{
+    color: #0094ff;
+}
+
+.random:first-letter{
+    font-family:'Edwardian Script ITC';
+    font-size:3.0em;
+}
+
+.random:first-line{
+    font-weight:bold;
+}

@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+</head>
+<body>
+    <table border="1">
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clean This Form" />
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="LastName">Last Name</label>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="LastName" size="60" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="FirstName">First Name</label>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="FirstName" size="60"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Adress</label>
+                </td>
+                <td colspan="3">
+                    <textarea id="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="City">City</label>
+                </td>
+                <td>
+                    <input type="text" id="City" size="23"/>
+                    <label for="State">State</label>
+                    <input type="text" id="State" size="23" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ZipCode">Zip/Postal Code</label>
+                </td>
+                <td>
+                    <input type="text" id="ZipCode" size="4" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Country">Country</label>
+                </td>
+                <td>
+                    <select id="Country">
+                        <option value="1" selected="selected">Bulgaria</option>
+                        <option value="2">Croatia</option>
+                        <option value="3">Greece</option>
+                        <option value="4">Spain</option>
+                        <option value="5">Zimbabwe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Phone">Phone(country code,area code, number)</label>
+                </td>
+                <td>
+                    <span>(+</span>
+                    <input type="text" id="Phone" size="4" />
+                    <span>)</span>
+                    <input type="text" id="Phone" size="4"/>
+                    <input type="text" id="Phone" size="8"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="BirthDate">Birth Date</label>
+                </td>
+                <td>
+                    <input type="text" value="дд.мм.гггг г." id="BirthDate"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender">Gender</label>
+                </td>
+                <td>
+                    <select id="Gender">
+                        <option value="1" selected="selected">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Starting date
+                </td>
+                <td>
+                    <input type="radio" name="Season" value="Spring 2015" checked />Spring 2015
+                    <input type="radio" name="Season" value="Summer 2015" />Summer 2015
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Comments">Comments/Questions</label>
+                </td>
+                <td>
+                    <textarea id="Comments"></textarea>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

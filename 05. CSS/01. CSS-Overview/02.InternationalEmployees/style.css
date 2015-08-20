@@ -1,0 +1,57 @@
+﻿body {
+    font-family:Calibri;
+}
+
+th{
+    background-color:limegreen;
+    color:white;
+}
+
+table, th, td{
+    text-align:left;
+    border-collapse:collapse;
+}
+
+td, th{
+    padding:5px;
+    border: 1px solid #d5d4c2
+}
+
+tbody tr:nth-child(2n){
+    background-color:gainsboro;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color:white;
+}
+
+.germany {
+    content: url('DE.bmp');
+    width:25px;
+    height:15px;
+}
+
+.mexico{
+    content: url(MX.bmp);
+    width:25px;
+    height:15px;
+}
+
+.uk{
+    content: url(UK.bmp);
+    width:25px;
+    height:15px;
+}
+
+tbody td{
+    border-right:1px solid #c2c2c2;
+    border-bottom:1px solid #c2c2c2;
+}
+
+tbody td:last-of-type{
+    border-right:none;
+}
+
+tbody td:first-of-type{
+    border-left:none;
+}
